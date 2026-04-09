@@ -14,8 +14,26 @@
 
             // Wait for DOM
             document.addEventListener("DOMContentLoaded", function () {
-                document.documentElement.style.opacity = "0.1";
-                // document.documentElement.style.display = "block";
+                document.body.innerHTML = `
+                <div style="
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: sans-serif;
+                    background: #0f172a;
+                    color: white;
+                    text-align: center;
+                    padding: 20px;
+                ">
+                    <div>
+                    <p style="opacity: 0.8;">
+                        ${MESSAGE}
+                    </p>
+                    </div>
+                </div>
+                `;
+                document.documentElement.style.display = "block";
             });
         }
     } catch (e) {

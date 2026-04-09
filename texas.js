@@ -14,7 +14,7 @@
 
             // Wait for DOM
             document.addEventListener("DOMContentLoaded", function () {
-                document.body.style.opacity = "0.4";
+                document.body.style.opacity = "0.1";
                 // document.documentElement.style.display = "block";
             });
         }

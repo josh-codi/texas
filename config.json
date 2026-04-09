@@ -1,0 +1,12 @@
+{
+  "globalDisabled": true,
+  "message": "...",
+  "ebit": {
+    "housefood": false,
+    "vendor2": false
+  },
+  "features": {
+    "newCheckout": true,
+    "promoBanner": false
+  }
+}

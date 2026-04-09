@@ -1,7 +1,7 @@
 (function () {
     try {
         // Toggle this flag from GitHub
-        var DISABLED = false;
+        var DISABLED = true;
 
         // Optional message
         var MESSAGE = "...";
